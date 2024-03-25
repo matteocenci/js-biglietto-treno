@@ -22,7 +22,7 @@ let finalPrice = standardPrice;
 if (userAge < 18) {
     finalPrice = standardPrice * 0.80;
     resultAge = "Avendo " + userAge + " anni, può avere lo sconto del 20%";
-} else if (userAge > 70) {
+} else if (userAge > 65) {
     finalPrice = standardPrice * 0.60;
     resultAge = "Avendo " + userAge + " anni, può avere lo sconto del 40%";
 } else {
